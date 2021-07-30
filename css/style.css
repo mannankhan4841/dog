@@ -1,0 +1,984 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+}
+a, a:hover{
+    text-decoration:none;
+}
+
+/*header css start*/
+.header{
+    width: 100%;
+}
+.header .top-header{
+    width: 100%;
+    background: #daac00;
+    position: relative;
+}
+.header .second-con{
+    padding: 0;
+}
+.header .top-header .bg-light {
+    background-color: transparent !important;
+    padding: 15px 0;
+}
+.header .top-header .navbar-nav {
+    margin: auto;
+}
+.header .top-header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 25px;
+    margin: 0 18px;
+    font-weight: 500;
+}
+.header .top-header .search-box {
+    border: none;
+    padding: 10px 8px;
+    color: #fff;
+    background: #fcc302;
+    outline: none;
+    width: 220px;
+}
+.talk-btn i {
+    font-size: 17px;
+    background: #00bec9;
+    padding: 13px 20px;
+    height: 44px;
+    color: #fff;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+}
+.header  .bottom-header {
+    padding: 80px 0;
+    width: 100%;
+    background: #fcc302;
+    color: #fff;
+}
+.header .bottom-header h1 {
+    font-size: 55px;
+    line-height: 65px;
+}
+.header .bottom-header p {
+    font-size: 21px;
+    width: 100%;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 25px 0;
+    font-weight: 300;
+}
+.header .bottom-header button.btn.btn-primary.one {
+    padding: 15px 25px;
+    background: #00bec9;
+    border: 2px solid #00bec9;
+    margin-right: 25px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+
+
+.header .bottom-header button.btn.btn-primary.one:hover{
+    background: transparent;
+    border: 2px solid #fff;
+}
+.header .bottom-header button.btn.btn-primary.two {
+    padding: 15px 25px;
+    background: transparent;
+    border: 2px solid #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.header .bottom-header button.btn.btn-primary.two:hover{
+    background: #00bec9;
+    border: 2px solid #00bec9;
+}
+.header .bottom-header .bottom-header-colONE {
+    padding: 80px 0 0 0;
+}
+.header .bottom-header .bottom-header-colTWO {
+    text-align: right;
+}
+.header .bottom-header .bottom-header-colTWO img{
+    width: 70%;
+}
+
+/*header css end*/
+
+/*Stick up css*/
+.isStuck {
+    left: 0px;
+    width: 100%;
+    
+}
+.navbar-wrapper {
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+}
+
+/*our-service css start*/
+.our-service{
+    width: 100%;
+    padding: 80px 0;
+    height: 100vh;
+}
+section.our-service h1 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+}
+section.our-service p {
+    font-size: 28px;
+    line-height: 38px;
+    padding: 20px 0;
+}
+section.our-service .btn-primary{
+    padding: 13px 32px;
+    font-size: 17px;
+    background: #fcc302;
+    border: 2px solid #fcc302;
+}
+
+.our-service .image-col{
+
+    position: relative;
+}
+.our-service .img-box {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+.our-service .img-box img{
+    width: 90%;
+}
+section.our-service .color-box {
+    width: 250px;
+    height: 200px;
+    background: #fbc201;
+    position: absolute;
+    bottom: -73px;
+    z-index: 1;
+    left: 6px;
+}
+.our-service .content-col{
+    padding-top: 40px;
+}
+.content-col-2{
+    text-align: right;
+    padding-top: 40px;
+}
+/*our-service css end*/
+
+/*type css start*/
+.type{
+    width: 100%;
+    padding: 80px 0;
+    background: #fbc201;
+}
+.type .type-title{
+    width: 100%;
+    text-align: center;
+}
+.type .type-title h1 {
+    font-size: 60px;
+    line-height: 70px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.type .type-title p {
+    font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+    width: 58%;
+    margin: auto;
+    font-weight: 300;
+        margin-bottom: 80px;
+}
+.type .card-row .card {
+    border: none;
+    text-align: center;
+    background: transparent;
+}
+.type .card-row .card .card-body {
+    padding: 1rem 0rem;
+    color: #fff;
+}
+.type .card-row .card .card-body h5.card-title{
+    margin-bottom: .5rem;
+    font-size: 38px;
+    line-height: 48px;
+}
+.type .card-row .card .card-body p {
+    font-size: 25px;
+    line-height: 35px;
+}
+.type .card-row .card-1{
+    padding-right: 15px;
+}
+.type .card-row .card-2{
+    padding:0 15px;
+}
+.type .card-row .card-3{
+    padding-left: 15px;
+}
+
+/*type css end*/
+
+/*buy css start*/
+.buy{
+    width: 100%;
+    padding: 80px 0;
+    background: #fbc201;
+}
+.buy .type-title{
+    width: 100%;
+    text-align: center;
+}
+.buy .type-title h1 {
+    font-size: 60px;
+    line-height: 70px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.buy .type-title p {
+    font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+    width: 58%;
+    margin: auto;
+    font-weight: 300;
+        margin-bottom: 80px;
+}
+.buy .card-row .card {
+    border: none;
+    text-align: center;
+    background: transparent;
+}
+.buy .card-row .card .card-body {
+    padding: 1rem 0rem;
+    color: #fff;
+}
+
+.type .card-row .card-1{
+    padding-right: 15px;
+}
+.type .card-row .card-2{
+    padding:0 15px;
+}
+.type .card-row .card-3{
+    padding-left: 15px;
+}
+.buy h5.card-title {
+    font-size: 35px;
+    line-height: 45px;
+    margin: 20px 0;
+}
+.buy h5.card-title del {
+    padding-right: 20px;
+}
+.buy button.btn.btn-primary {
+    padding: 9px 33px;
+    border-radius: 9999px;
+    background: #00bec9;
+    border: 1px solid #00bec9;
+    font-size: 22px;
+    font-weight: 600;
+}
+.buy button.btn.btn-primary:hover{
+    background: transparent;
+    border: 1px solid #fff;
+}
+/*buy css end*/
+
+/*team css start*/
+
+.team{
+    width: 100%;
+    padding: 80px 0;
+}
+.team .title-team h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.team .title-team p{
+    font-size: 25px;
+    line-height: 35px;
+    width: 58%;
+    margin: auto;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+.team .card-body {
+    text-align: center;
+}
+.team .card-body .card-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.team .card-body .card-text{
+    font-size: 19px;
+}
+.team .card-body .social{
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+.team .card-body .social i{
+    font-size: 20px;
+}
+.team .card-body .social li:hover{
+    color: #e2bf39;
+    background: transparent;
+    border: 1px solid #e2bf39;
+}
+.team .card-body .social li{
+        width: 40px;
+    height: 40px;
+    background: #e2bf39;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px;
+    color: #fff;
+}
+
+/*team css end*/
+
+/*counter css start*/
+.counters{
+    padding: 150px 0;
+    width: 100%;
+    background: linear-gradient(#fcc302cf,#fcc302cf), url(../images/counterbg.png) top center no-repeat;
+    background-size: cover;
+}
+.counters .card{
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+.counters .card-body{
+    text-align: center;
+}
+.counters .card-body i{
+    font-size: 75px;
+    line-height: 85px;
+    padding-bottom: 20px;
+}
+.counters .card-body h5{
+    font-size: 40px;
+    line-height: 50px;
+}
+.counters .card-body h4{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+/*counter css end*/
+
+/*recentpost css start*/
+
+.recentpost{
+    width: 100%;
+    padding: 80px 0;
+}
+.recentpost .recentpost-title{
+
+}
+.recentpost .recentpost-title h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.recentpost .recentpost-title p{
+    font-size: 25px;
+    line-height: 35px;
+    width: 58%;
+    margin: auto;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+.recentpost .card{
+    border-radius: 0;
+}
+.recentpost .card .card-body{
+    padding: 27px;
+}
+.recentpost .card .card-body .card-title{
+    color: #313243;
+    font-size: 27px;
+    font-weight: 700;
+}
+.recentpost .card .card-body h6{
+    font-size: 18px;
+    color: #00bec9;
+    padding-bottom: 15px;
+}
+.recentpost .card .card-body p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #313243;
+}
+.recentpost .card .card-body button{
+    background: transparent;
+    color: #00bec9;
+    border: none;
+    padding: 8px 0 0 0;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+}
+.recentpost .card .card-body button:focus{
+    box-shadow: 0;
+}
+
+/*recentpost css end*/
+
+/*footer css start*/
+.footer{
+    width: 100%;
+    padding: 80px 0;
+    background: #343434;
+    color: #fff;
+}
+.footer .foot ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer .foot ul li{
+    padding-bottom: 6px;
+    font-weight: 200;
+    font-size: 22px;
+}
+.footer .foot h3{
+    font-size: 37px;
+    line-height: 47px;
+}
+.footer .foot-3{
+    text-align: right;
+}
+.footer .foot-3 p{
+    font-size: 24px;
+    font-weight: 200;
+}
+.footer .foot-3 .form-grp{
+    position: relative;
+        margin: 35px 0;
+}
+.footer .foot-3 .form-grp input{
+        outline: none;
+    width: 100%;
+    padding: 15px;
+    background: #e2bf39;
+    border: none;
+    color: #fff;
+}
+.footer .foot-3 .form-grp i{
+    position: absolute;
+    font-size: 30px;
+    width: 80px;
+    height: 54px;
+    background: #00bec9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 0;
+}
+
+
+
+.footer .social{
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+.footer .foot-3 .social i{
+    font-size: 20px;
+}
+.footer .foot-3 .social li:hover{
+    color: #e2bf39;
+    background: transparent;
+    border: 1px solid #e2bf39;
+}
+.footer .foot-3 .social li{
+        width: 40px;
+    height: 40px;
+    background: #e2bf39;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px;
+    color: #fff;
+}
+
+
+
+
+
+
+/*footer css end*/
+
+
+/*Media Quaries start here*/
+@media (min-width: 320px) and (max-width: 480px){
+
+.navbar-light .navbar-brand img{
+    width: 70%;
+}
+.talk-btn {
+    display: none;
+}
+.bar{
+    color: #fff;
+}
+.header .navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.header .bottom-header {
+    padding: 40px 0;
+}
+.header .bottom-header .bottom-header-colONE {
+    padding: 0 10px 0;
+}
+.header .bottom-header h1 {
+    font-size: 43px;
+    line-height: 53px;
+}
+.header .bottom-header p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 7px 0;
+}
+.header .bottom-header button.btn.btn-primary.one {
+    padding: 8px 16px;
+    margin-right: 15px;
+}
+.header .bottom-header button.btn.btn-primary.two {
+    padding: 8px 16px;
+}
+.header .bottom-header .bottom-header-colTWO {
+    text-align: center;
+    padding: 20px 0;
+}
+.header .bottom-header .bottom-header-colTWO img {
+    width: 60%;
+}
+section.our-service h1 {
+    font-size: 36px;
+    line-height: 46px;
+}
+section.our-service p {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 10px 0;
+}
+.our-service .img-box {
+    margin-top: 25px;
+}
+section.our-service .color-box {
+    bottom: -388px;
+    left: 10px;
+}
+.our-service {
+    padding: 40px 0;
+    height: 110vh;
+}
+.type {
+    padding: 40px 0;
+}
+.type .type-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+.type .type-title p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.type .card-row .card .card-body p {
+    font-size: 19px;
+    line-height: 29px;
+}
+.type .card-row .card .card-body h5.card-title {
+    font-size: 35px;
+    line-height: 45px;
+}
+.buy {
+    padding: 40px 0;
+}
+.buy .type-title h1 {
+    font-size: 41px;
+    line-height: 51px;
+    margin-bottom: 10px;
+}
+.buy .type-title p {
+    font-size: 19px;
+    line-height: 29px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.buy h5.card-title del {
+    padding-right: 10px;
+}
+.buy h5.card-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 15px 0;
+}
+.buy button.btn.btn-primary {
+    padding: 7px 30px;
+    font-size: 19px;
+}
+.buy .card-row .card {
+    margin-bottom: 15px;
+}
+.team {
+    width: 100%;
+    padding: 40px 0;
+}
+.team .title-team h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.team .title-team p {
+    font-size: 19px;
+    line-height: 29px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.team .card-body .card-title {
+    font-size: 27px;
+}
+.team .card-body .card-text {
+    font-size: 17px;
+}
+.team .card-body .social li {
+    width: 37px;
+    height: 37px;
+    margin: 0 5px;
+}
+.team .card-body .social i {
+    font-size: 16px;
+}
+.team .card{
+    margin-bottom: 15px;
+}
+.counters .card-body i {
+    font-size: 65px;
+    line-height: 75px;
+    padding-bottom: 10px;
+}
+.counters {
+    padding: 40px 0;
+}
+.counters .card-body h5 {
+    font-size: 36px;
+    line-height: 46px;
+}
+.counters .card-body h4 {
+    font-size: 30px;
+}
+.recentpost {
+    padding: 40px 0;
+}
+.recentpost .recentpost-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.recentpost .recentpost-title p {
+    font-size: 19px;
+    line-height: 29px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.recentpost .card .card-body .card-title {
+    font-size: 25px;
+}
+.recentpost .card .card-body h6 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.recentpost .card .card-body p {
+    font-size: 14px;
+}
+.footer .foot h3 {
+    font-size: 32px;
+    line-height: 42px;
+}
+.footer .foot ul li {
+    font-size: 19px;
+}
+.footer .foot-3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer .foot-3 p {
+    font-size: 21px;
+}
+.footer .foot-1{
+    width: 50%;
+}
+.footer .foot-2{
+    width: 50%;
+}
+
+.header .top-header .navbar-light .navbar-nav .nav-link {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .navbar-light .navbar-brand img{
+    width: 70%;
+}
+.talk-btn {
+    display: none;
+}
+.bar{
+    color: #fff;
+}
+.header .navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.header .bottom-header {
+    padding: 40px 0;
+}
+.header .bottom-header .bottom-header-colONE {
+    padding: 0 10px 0;
+}
+.header .bottom-header h1 {
+    font-size: 43px;
+    line-height: 53px;
+}
+.header .bottom-header p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 7px 0;
+}
+.header .bottom-header button.btn.btn-primary.one {
+    padding: 8px 16px;
+    margin-right: 15px;
+}
+.header .bottom-header button.btn.btn-primary.two {
+    padding: 8px 16px;
+}
+.header .bottom-header .bottom-header-colTWO {
+    text-align: center;
+    padding: 20px 0;
+}
+.header .bottom-header .bottom-header-colTWO img {
+    width: 60%;
+}
+section.our-service h1 {
+    font-size: 36px;
+    line-height: 46px;
+}
+section.our-service p {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 10px 0;
+}
+.our-service .img-box {
+    margin-top: 25px;
+}
+section.our-service .color-box {
+    bottom: -388px;
+    left: 10px;
+}
+.our-service {
+    padding: 40px 0;
+    height: 110vh;
+}
+.type {
+    padding: 40px 0;
+}
+.type .type-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+.type .type-title p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.type .card-row .card .card-body p {
+    font-size: 19px;
+    line-height: 29px;
+}
+.type .card-row .card .card-body h5.card-title {
+    font-size: 35px;
+    line-height: 45px;
+}
+.buy {
+    padding: 40px 0;
+}
+.buy .type-title h1 {
+    font-size: 41px;
+    line-height: 51px;
+    margin-bottom: 10px;
+}
+.buy .type-title p {
+    font-size: 19px;
+    line-height: 29px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.buy h5.card-title del {
+    padding-right: 10px;
+}
+.buy h5.card-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 15px 0;
+}
+.buy button.btn.btn-primary {
+    padding: 7px 30px;
+    font-size: 19px;
+}
+.buy .card-row .card {
+    margin-bottom: 15px;
+}
+.team {
+    width: 100%;
+    padding: 40px 0;
+}
+.team .title-team h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.team .title-team p {
+    font-size: 19px;
+    line-height: 29px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.team .card-body .card-title {
+    font-size: 27px;
+}
+.team .card-body .card-text {
+    font-size: 17px;
+}
+.team .card-body .social li {
+    width: 37px;
+    height: 37px;
+    margin: 0 5px;
+}
+.team .card-body .social i {
+    font-size: 16px;
+}
+.team .card{
+    margin-bottom: 15px;
+}
+.counter .card-body i {
+    font-size: 65px;
+    line-height: 75px;
+    padding-bottom: 10px;
+}
+.counter {
+    padding: 40px 0;
+}
+.counter .card-body h5 {
+    font-size: 36px;
+    line-height: 46px;
+}
+.counter .card-body h4 {
+    font-size: 30px;
+}
+.recentpost {
+    padding: 40px 0;
+}
+.recentpost .recentpost-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.recentpost .recentpost-title p {
+    font-size: 19px;
+    line-height: 29px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.recentpost .card .card-body .card-title {
+    font-size: 25px;
+}
+.recentpost .card .card-body h6 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.recentpost .card .card-body p {
+    font-size: 14px;
+}
+.footer .foot h3 {
+    font-size: 32px;
+    line-height: 42px;
+}
+.footer .foot ul li {
+    font-size: 19px;
+}
+.footer .foot-3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer .foot-3 p {
+    font-size: 21px;
+}
+.footer .foot-1{
+    width: 50%;
+}
+.footer .foot-2{
+    width: 50%;
+}
+
+.header .top-header .navbar-light .navbar-nav .nav-link {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+
+    
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+/*Media Quaries End here*/
